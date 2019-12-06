@@ -1,0 +1,263 @@
+body{
+    background: #f7f7f7;
+}
+.head{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    border-bottom:0.01rem solid #9a9b9d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.Inner_width{
+    width:7.02rem;
+    height:0.88rem;
+    margin: 0 auto;
+    position: relative;
+}
+.Inner_width img {
+    width: 0.92rem;
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.Inner_width i {
+    font-size: 0.50rem;
+    line-height: 0.88rem;
+}
+.share li{
+    width: 0.08rem;
+    height: 0.08rem;
+    background:black;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.06rem;
+}
+.share {
+    float: right;
+    margin-top: 0.44rem;
+    background: #f7f7f7;
+}
+/*头部开始*/
+
+/*头部结束*/
+/*导航内宽*/
+.header-nei{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.nei-left{
+    margin-top: 0.02rem;
+    float: left;
+}
+.nei-left i{
+    font-size: 0.4rem;
+    color: #000000;
+    line-height: 0.88rem;
+}
+.nei-center img{
+    width: 0.92rem;
+    height: 0.3rem;
+    float: left;
+    margin: 0.3rem 2.5rem;
+}
+.nei-right{
+    margin-top: 0.35rem;
+    float: right;
+    overflow: hidden;
+}
+.nei-right div{
+    margin-left: 0.05rem;
+    float: left;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #333333;
+}
+/*导航结束*/
+/*图片开始*/
+.tupian{
+    margin-top: 0.88rem;
+    width: 100%;
+    position: relative;
+}
+.tupian img{
+    width: 100%;
+    height: 1.83rem;
+}
+/*图片结束*/
+/*个人信息开始*/
+.gerenxinxi{
+    width: 7.02rem;
+    height: 3rem;
+    margin-left: 0.24rem;
+    position: absolute;
+    top: 1.3rem;
+}
+/*个人信息一行*/
+.mingzi{
+    height: 0.91rem;
+    background: white;
+    padding-top: 0.59rem;
+    position: relative;
+}
+.mingzi .touxiang{
+    width: 0.92rem;
+    height: 0.92rem;
+    position: absolute;
+    right: 0.55rem;
+    top: 0.39rem;
+}
+.mingzi p{
+    margin-left: 0.3rem;
+    position: relative;
+    font-family: MicrosoftYaHei;
+    font-size: 0.36rem;
+    line-height: 20px;
+    color: #000000;
+}
+.mingzi p i{
+    color: orange;
+}
+.mingzi .xiaobiao{
+    width: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    left: 2.3rem;
+    top: 0.65rem;
+}
+.mingzi h6{
+    margin-left: 0.3rem;
+    font-family: MicrosoftYaHei;
+    font-size: 0.18rem;
+    line-height: 0.20rem;
+    color: #000000;
+    opacity: 0.7;
+}
+/*个人信息一行结束*/
+/*展示五个信息*/
+.zhans{
+    height: 1.5rem;
+    background: white;
+    border: none;
+}
+.zhans li{
+    margin-top: 0.5rem;
+    margin-left: 0.45rem;
+    width: 0.85rem;
+    height: 0.75rem;
+    float: left;
+    text-align: center;
+}
+.zhans li h5{
+    font-family: MicrosoftYaHei;
+    font-size: 0.24rem;
+    line-height: 0.20rem;
+    color: #000000;
+    margin-top: 0.1rem;
+}
+.zhans li i{
+    font-size: 0.5rem;
+    color: orange;
+}
+/*个人信息结束*/
+/*详细信息开始*/
+.xiangxixinxi{
+    width: 7.02rem;
+    height: 3.84rem;
+    background: white;
+    margin-left: 0.24rem;
+    margin-top: 1.9rem;
+    padding-top: 0.4rem;
+}
+.xiangxixinxi li{
+    margin-left: 0.9rem;
+    margin-bottom: 0.3rem;
+    float: left;
+    width: 1.2rem;
+    height: 1rem;
+    text-align: center;
+    color: orange;
+}
+.xiangxixinxi li h5{
+    font-family: MicrosoftYaHei;
+    font-size: 0.24rem;
+    line-height: 0.20rem;
+    color: #000000;
+    margin-top: 0.16rem;
+}
+.xiangxixinxi li i{
+    font-size: 0.5rem;
+}
+/*详细信息结束*/
+/*关联开始*/
+.guanlian{
+    width: 7.02rem;
+    height: 2.02rem;
+    margin: 0.27rem auto;
+    background: white;
+    padding-top: 0.4rem;
+}
+.guanlian-nei{
+    width: 6.02rem;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    margin: 0 auto;
+    border-bottom: 0.02rem solid lightgrey;
+}
+.guanlian-nei p{
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 0.24rem;
+    color:orange;
+}
+.guanlian-nei span{
+    float: right;
+}
+.guanlian-women{
+    width: 6.02rem;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    margin: 0.4rem auto;
+    border-bottom: 0.02rem solid lightgrey;
+}
+.guanlian-women p{
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 0.24rem;
+    color:orange;
+}
+.guanlian-women span{
+    float: right;
+}
+/*关联结束*/
+/*tabbar开始*/
+.tab-box{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: #b0b0b0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.tab li{
+    width: 1.875rem;
+    height: 0.98rem;
+    background: white;
+    float: left;
+    text-align: center;
+    font-size: 0.4rem;
+    color: black;
+}
+.tab div{
+    font-size: 0.3rem;
+}
+/*tabbar结束*/

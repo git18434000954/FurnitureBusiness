@@ -1,0 +1,493 @@
+/*头部开始*/
+.head{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    border-bottom:0.01rem solid #9a9b9d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.Inner_width{
+    width:7.02rem;
+    height:0.88rem;
+    margin: 0 auto;
+    position: relative;
+}
+.Inner_width img {
+    width: 0.92rem;
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.Inner_width i {
+    font-size: 0.50rem;
+    line-height: 0.88rem;
+}
+.share li{
+    width: 0.08rem;
+    height: 0.08rem;
+    background:black;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.06rem;
+}
+.share{
+    float:right;
+    margin-top: 0.44rem;
+}
+/*头部结束*/
+/*商品详情开始*/
+.details{
+    width: 7.5rem;
+    height: 0.98rem;
+    background:white;
+    margin-top: 0.88rem;
+}
+.details-1{
+    width: 1rem;
+    height: 0.95rem;
+    background:white;
+    float: left;
+    margin-left: 1.37rem;
+    font-size: 0.24rem;
+    line-height: 0.98rem;
+    color: #ff6700;
+}
+.details-1::after{
+    content: "";
+    display: block;
+    width: 0.46rem;
+    height: 0.03rem;
+    background: orange;
+    margin:0 auto;
+}
+.comment{
+    width: 1rem;
+    height: 0.98rem;
+    background: white;
+    float: left;
+    margin-left: 2.76rem;
+    font-size: 0.24rem;
+    line-height: 0.98rem;
+}
+.plc{
+    width: 7.5rem;
+    height: 5rem;
+    background:#9a9b9d;
+    margin-top: 0.03rem;
+}
+.plc img{
+    width: 7.5rem;
+    height: 5rem;
+}
+.first{
+    width: 7.02rem;
+    height: 0.64rem;
+    background:white;
+    margin:0 auto;
+    font-size: 0.3rem;
+    text-align: right;
+    line-height: 0.64rem;
+}
+.introduce{
+    width: 6.66rem;
+    height: 4.5rem;
+    background:white;
+    margin:0 auto;
+    overflow: hidden;
+}
+.long-term{
+    width: 6.58rem;
+    height: 0.01rem;
+    background:black;
+}
+.org{
+    width: 0.47rem;
+    height: 0.02rem;
+    background:orange;
+}
+.a-line{
+    font-size: 0.3rem;
+    /*margin-top: 0.22rem;*/
+}
+.two-elements{
+    font-size: 0.24rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+.three-elements{
+    font-size: 0.24rem;
+    margin-bottom: 0.35rem;
+}
+.four-elements{
+    font-size: 0.24rem;
+    margin-bottom: 0.32rem;
+
+}
+.five-elements{
+    font-size: 0.2rem;
+    margin-bottom: 0.25rem;
+}
+.six-elements{
+    font-size: 0.3rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+}
+.seven-elements{
+    font-size: 0.24rem;
+}
+.number{
+    width: 1.65rem;
+    height:0.38rem;
+    background:white;;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+.number div{
+    width: 0.37rem;
+    height:0.37rem;
+    background:#cccccc;
+    text-align: center;
+}
+.long-term1{
+    width:2.97rem;
+    height: 0.01rem;
+    background:black;
+    margin-top: 0.8rem;
+    margin-left: 0.44rem;
+}
+.org1{
+    width: 0.47rem;
+    height: 0.02rem;
+    background:orange;
+    margin-left: 0.44rem;
+}
+.big-bos{
+    width:7.5rem;
+    height:30rem;
+    background:#fcfcfc;
+    overflow: hidden;
+}
+.browse{
+    font-size: 0.24rem;
+    margin-top: 0.37rem;
+    margin-left: 0.4rem;
+    margin-bottom: 0.31rem;
+}
+.browse span{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #ff6700;
+}
+.verfo-box{
+    width: 7.5rem;
+    height: 5.15rem;
+    background:white;
+}
+.verfo{
+    width: 3.10rem;
+    height: 5.10rem;
+    background:white;
+    margin-left: 0.37rem;
+    position:relative;
+    float: left;
+    border: 0.02rem solid #f6f6f6;
+}
+.plc1{
+    width: 3.24rem;
+    height:3.12rem;
+    background: white;
+}
+.plc1 img{
+    width: 3.24rem;
+    height:3.12rem;
+}
+.bottom-1{
+    width: 0.34rem;
+    height: 0.02rem;
+    background:white;
+    margin-left: 0.17rem;
+    margin-top: 0.1rem;
+}
+.lab{
+    font-size:0.18rem;
+    margin-left:0.17rem;
+    margin-top: 0.1rem;
+}
+.lab1{
+    font-size: 0.24rem;
+    margin-left:0.17rem;
+}
+.eight{
+    font-size: 0.26rem;
+    margin-left:0.17rem;
+    margin-top: 0.7rem;
+}
+.more1{
+    width: 1.52rem;
+    height: 0.43rem;
+    background:orange;
+    border-radius: 0.1rem;
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0.23rem;
+    font-size:0.22rem;
+    line-height: 0.43rem;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: white;
+}
+.more1 i{
+    font-size: 0.16rem;
+}
+.new{
+    width: 2rem;
+    height: 1rem;
+    background:#fcfcfc;
+    margin: 0.84rem auto 0.73rem;
+}
+.yellow{
+    width: 0.46rem;
+    height: 0.02rem;
+    background:orange;
+}
+.gray{
+    width: 1.8rem;
+    height: 0.02rem;
+    background:black;
+    margin-top: 0.08rem;
+}
+.pro{
+    font-size:0.01rem;
+    text-align: center;
+    margin-left: 0.04rem;
+}
+.duct,.first{
+    margin-left: 0.15rem;
+    font-family:微软雅黑；
+}
+.first{
+    color:yellow;
+}
+.bottom{
+    width: 0.34rem;
+    height: 0.02rem;
+    background:black;
+    margin-left:0.7rem;
+    margin-top: 0.1rem;
+}
+.positive{
+    width: 6.41rem;
+    height: 5.48rem;
+    background: #fcfcfc;
+    margin: 0 auto
+}
+.positive img{
+    width: 6.41rem;
+    height: 5.48rem;
+
+}
+.scenario{
+    width: 7.5rem;
+    height: 4.14rem;
+    background: #fcfcfc;
+    margin-top: 1.07rem;
+}
+.scenario img{
+    width: 7.5rem;
+    height: 4.14rem;
+}
+.scenario-1{
+    width: 1.05rem;
+    font-size: 0.24rem;
+    margin-top: 0.72rem;
+    margin-bottom: 0.95rem;
+    margin-left: 3.28rem;
+}
+.scenario-2{
+    width: 7.5rem;
+    height: 4.14rem;
+    background: #fcfcfc;
+}
+.scenario-2 img{
+    width: 7.5rem;
+    height: 4.14rem;
+}
+/*商品详情结束*/
+/*服务保障开始*/
+.packing{
+    width:6.6rem;
+    height: 2rem;
+    background: #fcfcfc;
+    margin: 0 auto;
+
+}
+.packing-1{
+    width:1.02rem;
+    height: 1.92rem;
+    background: #fcfcfc;
+    float: left;
+    text-align: center;
+}
+.packing img{
+    width:0.97rem;
+    height: 0.97rem;
+}
+.packing span{
+    font-size: 0.24rem;
+    line-height: 1.3rem;
+}
+.packing-2{
+    width:0.82rem;
+    height:0.02rem;
+    background:orange;
+    float: left;
+    margin-top: 0.5rem;
+}
+/*服务保障结束*/
+/*推荐商品开始*/
+.recommend-1{
+    width: 1.4rem;
+    height: 0.3rem;
+    background: white;
+    margin-left: 0.24rem;
+    margin-top: 0.69rem;
+    margin-bottom: 0.20rem;
+}
+.recommend-2{
+    width:0.03rem;
+    height:0.21rem;
+    background:yellow;
+    display: inline-block;
+}
+.recommend-1 b{
+    font-size: 0.3rem;
+}
+.recommend-box{
+    width:7.5rem;
+    height:11.96rem;
+    background: #fcfcfc;
+    overflow: hidden;
+    margin-bottom: 0.98rem;
+}
+.verfo{
+    width: 3.26rem;
+    height: 5.09rem;
+    background:white;
+    margin-left: 0.37rem;
+    margin-top: 0.20rem;
+    position:relative;
+    float: left;
+    border: 0.02rem solid #f6f6f6;
+}
+.plc{
+    width: 7.5rem;
+    height:5rem;
+    background: white;
+}
+.plc img{
+    width: 7.5rem;
+    height: 5rem;
+}
+.plc2{
+    width: 3.24rem;
+    height:3.12rem;
+    background: white;
+}
+.plc2 img{
+    width: 3.24rem;
+    height: 3.12rem;
+}
+.bottom-1{
+    width: 0.34rem;
+    height: 0.02rem;
+    background:white;
+    margin-left: 0.17rem;
+    margin-top: 0.1rem;
+}
+.lab{
+    font-size:0.18rem;
+    margin-left:0.17rem;
+    margin-top: 0.1rem;
+}
+.lab1{
+    font-size: 0.24rem;
+    margin-left:0.17rem;
+}
+.eight{
+    font-size: 0.26rem;
+    margin-left:0.17rem;
+    margin-top: 0.7rem;
+}
+.more1{
+    width: 1.52rem;
+    height: 0.43rem;
+    background:orange;
+    border-radius: 0.1rem;
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0.23rem;
+    font-size:0.22rem;
+    line-height: 0.43rem;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: white;
+}
+.more1 i{
+    font-size: 0.16rem;
+}
+.verfo1{
+    width: 3.26rem;
+    height: 5.09rem;
+    background:white;
+    margin-left: 0.21rem;
+    margin-top: 0.20rem;
+    position:relative;
+    float: left;
+    border: 0.02rem solid #f6f6f6;
+}
+/*推荐商品结束*/
+/*加入购物车开始*/
+.purchase{
+    width:7.5rem;
+    height:0.98rem;
+    background:#b0b0b0;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.collection{
+    width:1.29rem;
+    height:0.97rem;
+    background:#fafafa;
+    text-align: center;;
+}
+.collection i{
+    font-size: 0.38rem;
+}
+.join{
+    width:3.1rem;
+    height:0.97rem;
+    background:#fafafa;
+    text-align: center;
+    line-height: 0.97rem;
+}
+.purchase1{
+    width:3.09rem;
+    height:0.97rem;
+    background:#ff6700;
+    text-align: center;
+    line-height: 0.97rem;
+    color: white;
+}
+/*加入购物车结束*/

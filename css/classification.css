@@ -1,0 +1,240 @@
+/*导航开始*/
+.head{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    border-bottom:0.01rem solid #9a9b9d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.Inner_width{
+    width:7.02rem;
+    height:0.88rem;
+    margin: 0 auto;
+    position: relative;
+}
+.Inner_width img {
+    width: 0.92rem;
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.Inner_width i {
+    font-size: 0.50rem;
+    line-height: 0.88rem;
+}
+.share li{
+    width: 0.08rem;
+    height: 0.08rem;
+    background:black;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.06rem;
+}
+.share{
+    float:right;
+    margin-top: 0.44rem;
+}
+/*导航结束*/
+/*导航内宽*/
+.header-nei{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.nei-left{
+    margin-top: 0.02rem;
+    float: left;
+}
+.nei-left i{
+    font-size: 0.4rem;
+    color: #000000;
+    line-height: 0.88rem;
+}
+.nei-center img{
+    width: 0.92rem;
+    height: 0.3rem;
+    float: left;
+    margin: 0.3rem 2.5rem;
+}
+.nei-right{
+    margin-top: 0.35rem;
+    float: right;
+    overflow: hidden;
+}
+.nei-right div{
+    margin-left: 0.05rem;
+    float: left;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #333333;
+}
+/*导航结束*/
+/*搜索开始*/
+.shousuo{
+    margin-top: 0.88rem;
+    width: 100%;
+    height: 0.86rem;
+    border-top: 0.01rem solid #f2f2f2;
+    border-bottom: 0.01rem solid orange;
+    box-shadow:0.01rem 0.03rem 0.01rem 0.01rem rgba(0,0,0,0.5) ;
+}
+.shousuo-nei{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.shousuo-left{
+    width: 5.85rem;
+    float: left;
+}
+.parent{
+    position: relative;
+}
+.search{
+    width: 5.55rem;
+    height: 0.5rem;
+    border-radius: 18px;
+    outline: none;
+    border: 0.03rem solid #ccc;
+    margin-top: 0.15rem;
+    padding-left: 0.20rem;
+}
+.parent i{
+    height: 0.35rem;
+    width: 0.35rem;
+    position: absolute;
+    /*background-image: url() no-repeat -2px -99px;*/
+    top: 0.26rem;
+    left: 0.28rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.44rem;
+}
+.shousuo-right{
+    line-height: 0.9rem;
+    font-size: 0.24rem;
+    float: right;
+    color: black;
+}
+/*搜索结束*/
+/*分类内容开始*/
+.fenlei-body{
+    width: 100%;
+}
+.flbody-left{
+    width: 2rem;
+    margin-top: 0.05rem;
+    float: left;
+}
+.flbody-left li{
+    width: 2rem;
+    height: 1.04rem;
+    background: #f7f7f7;
+    text-align: center;
+    line-height: 1.04rem;
+    margin-bottom: 0.03rem;
+    font-size: 0.26rem;
+    color: #000000;
+}
+.flbody-left .flbody-l2{
+    background: white;
+    border-left: 0.11rem solid #ffcb3f;
+}
+.flbody-right{
+    width: 70%;
+    float: left;
+}
+.fbody-top{
+    position: relative;
+}
+.fbody-top img{
+    margin-top: 0.05rem;
+    margin-left: 0.25rem;
+    width: 4.96rem;
+}
+.more{
+    width: 0.89rem;
+    height: 0.35rem;
+    background-color: #ffcb3f;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.35rem;
+    position: absolute;
+    left: 0.8rem;
+    bottom: 0.35rem;
+    z-index: 2;
+}
+.more a{
+    font-family: Arial-BoldMT;
+    font-size: 0.01rem;
+    color: white;
+}
+.fbody-zi{
+    font-family: MicrosoftYaHei;
+    font-size: 0.32rem;
+    color: #010101;
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+}
+.fbody-zi::after{
+    content: "";
+    clear: both;
+}
+.fbody-body{
+    width: 100%;
+    margin-top: 0.23rem;
+}
+.fbody-body li{
+    float: left;
+    width: 1.5rem;
+    height: 1.99rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.42rem;
+}
+.fbody-body img{
+    width: 1.5rem;
+    height: 1.42rem;
+    margin-bottom: 0.1rem;
+}
+.fbody-body li div{
+    width: 100%;
+    font-family: MicrosoftYaHei;
+    text-align: center;
+    font-size: 0.22rem;
+    line-height: 0.20rem;
+    color: #000000;
+}
+/*分类内容结束*/
+/*tabbar开始*/
+.tab-box{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: #b0b0b0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.tab li{
+    width: 1.875rem;
+    height: 0.98rem;
+    background: white;
+    float: left;
+    text-align: center;
+    font-size: 0.4rem;
+    color: black;
+}
+.tab div{
+    font-size: 0.3rem;
+}
+/*tabbar结束*/

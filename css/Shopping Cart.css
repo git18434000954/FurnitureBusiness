@@ -1,0 +1,275 @@
+/*头部开始*/
+.head{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    border-bottom:0.01rem solid #9a9b9d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.Inner_width{
+    width:7.02rem;
+    height:0.88rem;
+    margin: 0 auto;
+    position: relative;
+}
+.Inner_width img {
+    width: 0.92rem;
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.Inner_width i {
+    font-size: 0.50rem;
+    line-height: 0.88rem;
+}
+.share li{
+    width: 0.08rem;
+    height: 0.08rem;
+    background:black;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.06rem;
+}
+.share{
+    float:right;
+    margin-top: 0.44rem;
+}
+/*头部结束*/
+/*添加商品开始*/
+.Add-to{
+    width: 7.5rem;
+    height:7.02rem;
+    background:black;
+    margin-top: 0.88rem;
+}
+.add-1{
+    width: 7.5rem;
+    height:2.34rem;
+    background:white;
+}
+.add-1 .yuan{
+    width: 0.23rem;
+    height:0.23rem;
+    margin-top:1.05rem;
+    float: left;
+}
+.add-1 img{
+    width: 1.99rem;
+    height:1.4rem;
+    margin-left: 0.24rem;
+    margin-top: 0.47rem;
+    float: left;
+}
+.introduce{
+    float: left;
+    margin-top: 0.57rem;
+    margin-left: 0.19rem;
+}
+.add-1 ul{
+    top: 0.57rem;
+    left: 2.85rem;
+}
+.number{
+    width: 1.65rem;
+    height:0.38rem;
+    background:#f5f5f5;
+    float: right;
+    margin-top: 0.98rem;
+    margin-right: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.number div{
+    width: 0.37rem;
+    height:0.37rem;
+    background:#f5f5f5;
+    text-align: center;
+    border: 0.01rem solid #aaa;
+}
+.introduce-1{
+    font-size:0.18rem;
+}
+.introduce-2{
+    font-size:0.24rem;
+    font-weight:900;
+}
+.introduce-3{
+    font-size: 0.18rem;
+}
+.introduce-4{
+    font-size: 0.24rem;
+}
+/*添加商品结束*/
+/*推荐商品开始*/
+.recommend-box{
+    width:7.5rem;
+    height:11.96rem;
+    background: #fcfcfc;
+    overflow: hidden;
+}
+.recommend-1{
+    width: 1.4rem;
+    height: 0.3rem;
+    background: white;
+    margin-left: 0.24rem;
+    margin-top: 0.69rem;
+    margin-bottom: 0.20rem;
+}
+.recommend-2{
+    width:0.03rem;
+    height:0.21rem;
+    background:yellow;
+    display: inline-block;
+
+}
+.recommend-1 b{
+    font-size: 0.3rem;
+}
+.verfo{
+    width: 3.26rem;
+    height: 5.09rem;
+    background:white;
+    margin-left: 0.37rem;
+    margin-top: 0.20rem;
+    position:relative;
+    float: left;
+    border: 0.02rem solid #f6f6f6;
+}
+.plc{
+    width: 3.26rem;
+    height:2.89rem;
+    background: white;
+}
+.chair{
+    width: 3.26rem;
+    height: 2.89rem;
+}
+.bottom-1{
+    width: 0.34rem;
+    height: 0.02rem;
+    background:white;
+    margin-left: 0.17rem;
+    margin-top: 0.1rem;
+}
+.lab{
+    font-size:0.18rem;
+    margin-left:0.17rem;
+    margin-top: 0.1rem;
+}
+.lab1{
+    font-size: 0.24rem;
+    margin-left:0.17rem;
+}
+.eight{
+    font-size: 0.26rem;
+    margin-left:0.17rem;
+    margin-top: 0.7rem;
+}
+.more1{
+    width: 1.52rem;
+    height: 0.43rem;
+    background:orange;
+    border-radius: 0.1rem;
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0.23rem;
+    font-size:0.22rem;
+    line-height: 0.43rem;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: white;
+}
+.more1 i{
+    font-size: 0.16rem;
+}
+.verfo1{
+    width: 3.26rem;
+    height: 5.09rem;
+    background:white;
+    margin-left: 0.21rem;
+    margin-top: 0.20rem;
+    position:relative;
+    float: left;
+    border: 0.02rem solid #f6f6f6;
+}
+/*推荐商品结束*/
+/*结算开始*/
+.settlement{
+    width: 7.5rem;
+    height: 0.9rem;
+    background:white;
+    margin-bottom: 0.98rem;
+}
+.circular{
+    width: 0.25rem;
+    height: 0.25rem;
+    background:white;
+    border-radius: 50%;
+    border: 0.02rem solid #ff6700;
+    margin-top:0.3rem;
+    margin-left: 0.24rem;
+    float: left;
+}
+.settlement-1{
+    width: 2.12rem;
+    height: 0.89rem;
+    background:orange;
+}
+.settlement-box{
+    width: 1.88rem;
+    height: 0.5rem;
+    background:white ;
+    font-size: 0.24rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top:0.15rem ;
+}
+.settlement-2{
+    margin-top:0.3rem;
+    margin-left: 0.2rem;
+    font-size: 0.24rem;
+    float: left;
+}
+
+.settlement-4{
+    font-size: 0.18rem;
+}
+.settlement-1{
+    float: right;
+    font-size: 0.28rem;
+    line-height: 0.89rem;
+    text-align: center;
+    color: white;
+}
+/*结算结束*/
+/*tab开始*/
+.tab-box{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: #b0b0b0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.tab li{
+    width: 1.875rem;
+    height: 0.98rem;
+    background: white;
+    float: left;
+    text-align: center;
+    font-size: 0.4rem;
+    color: black;
+}
+.tab div{
+    font-size: 0.3rem;
+}
+
+/*tab结束*/

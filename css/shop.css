@@ -1,0 +1,448 @@
+/*头部开始*/
+.head{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    border-bottom:0.01rem solid #9a9b9d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.Inner_width{
+    width:7.02rem;
+    height:0.88rem;
+    margin: 0 auto;
+    position: relative;
+}
+.Inner_width img {
+    width: 0.92rem;
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.Inner_width i {
+    font-size: 0.50rem;
+    line-height: 0.88rem;
+}
+.share li{
+    width: 0.08rem;
+    height: 0.08rem;
+    background:black;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.06rem;
+}
+.share{
+    float:right;
+    margin-top: 0.44rem;
+}
+/*头部结束*/
+/*导航开始*/
+.Navigation{
+    width:7.5rem;
+    height:0.88rem;
+    background: white;
+    margin-top: 0.88rem;
+    font-size: 0.24rem;
+    line-height: 0.88rem;
+}
+.Navigation span{
+    /*line-height: 0.88rem;*/
+    /*font-size:0.24rem;*/
+    font-family: 微软雅黑;
+}
+.product{
+    margin-left: 0.24rem;
+}
+.case{
+    margin-left:1rem;
+}
+/*导航结束*/
+/*轮播图开始*/
+.banner{
+    width:7.5rem;
+    height:3.84rem;
+    background:white;
+    position:relative;
+}
+.banner img{
+    width: 100%;
+    height:3.84rem ;
+}
+.more{
+    width: 1.09rem;
+    height: 0.33rem;
+    background:orange;
+    position: absolute;
+    top: 2.54rem;
+    left: 0.64rem;
+    border-radius: 0.1rem;
+    text-align: center;
+    font-size: 0.14rem;
+    line-height: 0.33rem;
+    color: white;
+}
+/*轮播图结束*/
+/*新品首发开始*/
+.blank{
+    width: 7.5rem;
+    height: 0.79rem;
+    background:white;
+}
+.new{
+    width: 2rem;
+    height: 1rem;
+    background:white;
+    margin-left: 3.01rem;
+}
+.yellow{
+    width: 0.46rem;
+    height: 0.02rem;
+    background:orange;
+}
+.gray{
+    width: 1.8rem;
+    height: 0.02rem;
+    background:black;
+    margin-top: 0.08rem;
+}
+.pro{
+    font-size:0.01rem;
+    text-align: center;
+    margin-left: 0.04rem;
+}
+.duct,.first{
+    margin-left: 0.15rem;
+    font-family:微软雅黑；
+}
+.first{
+    color:yellow;
+}
+.bottom{
+    width: 0.34rem;
+    height: 0.02rem;
+    background:black;
+    margin-left:0.7rem;
+    margin-top: 0.1rem;
+}
+.hot{
+    width: 7.2rem;
+    height: 0.58rem;
+    background:white;
+    text-align: right;
+    line-height: 0.58rem;
+    padding-right: 0.3rem;
+}
+.verfo{
+    width: 3.09rem;
+    height: 5.11rem;
+    background:white;
+    margin-left: 0.24rem;
+    position:relative;
+    float: left;
+    border: 0.02rem solid #f6f6f6;
+}
+.plc{
+    width: 3.08rem;
+    height: 2.89rem;
+    background: white;
+}
+.chair{
+    width: 3.08rem;
+    height: 2.89rem;
+}
+.bottom-1{
+    width: 0.34rem;
+    height: 0.02rem;
+    background:white;
+    margin-left: 0.17rem;
+    margin-top: 0.1rem;
+}
+.lab{
+    font-size:0.18rem;
+    margin-left:0.17rem;
+    margin-top: 0.1rem;
+}
+.lab1{
+    font-size: 0.24rem;
+    margin-left:0.17rem;
+}
+.eight{
+    font-size: 0.26rem;
+    margin-left:0.17rem;
+    margin-top: 0.7rem;
+}
+.more1{
+    width: 1.52rem;
+    height: 0.43rem;
+    background:orange;
+    border-radius: 0.1rem;
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0.23rem;
+    font-size:0.22rem;
+    line-height: 0.43rem;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: white;
+}
+.more1 i{
+    font-size: 0.16rem;
+}
+.hot1{
+    width: 0.5rem;
+    height: 0.55rem;
+    position: absolute;
+    bottom: 4.7rem;
+    left: 0.18rem;
+}
+.hot2{
+    font-size:0.1rem;
+    color: white;
+    position: absolute;
+    bottom: 4.85rem;
+    left: 0.18rem;
+}
+/*新品首发结束*/
+/*热销产品开始*/
+.blank1{
+    width: 7.5rem;
+    height: 0.79rem;
+    background:white;
+    margin-top:5.11rem ;
+}
+.sofa{
+    width: 6.99rem;
+    height: 6.3rem;
+    background:white;
+    margin-left: 0.24rem;
+    border: 0.02rem solid #f6f6f6;
+    overflow: hidden;
+}
+.plc2{
+    width: 6.25rem;
+    height: 2.62rem;
+    background: white;
+    margin-left: 0.4rem;
+    margin-top: 1.13rem;
+}
+.plc2 img{
+    width: 6.25rem;
+    height: 2.62rem;
+}
+.comfortable{
+    font-size:0.31rem;
+    font-family: 微软雅黑;
+    margin-top: 0.1rem;
+    margin-left: 0.64rem;
+}
+.bay{
+    font-size: 0.2rem;
+    margin-top: 0.15rem;
+    margin-left: 0.64rem;
+}
+.four{
+    font-size: 0.4rem;
+    margin-top: 0.5rem;
+    margin-left: 0.64rem;
+}
+.buy2{
+    margin-left: 0.64rem;
+}
+.living{
+    width:100%;
+    background: #f6f6f6;
+    overflow: hidden;
+}
+.fendi{
+    width: 3.38rem;
+    height: 4.16rem;
+    background:white;
+    margin-left: 0.24rem;
+    margin-top: 0.22rem;
+    border: 0.02rem solid #f6f6f6;
+    position: relative;
+    float: left;
+}
+.fendi img{
+    width: 1.8rem;
+    height: 1.62rem;
+    margin-top: 0.45rem;
+    margin-left: 0.39rem;
+}
+.five{
+    margin-top: 0.5rem;
+    font-size: 0.26rem;
+    margin-left: 0.42rem;
+}
+.now{
+    margin-left: 0.42rem;
+    font-size: 0.18rem;
+}
+.tudor{
+    font-size: 0.18rem;
+    margin-left: 0.46rem;
+}
+.modern{
+    font-size: 0.26rem;
+    margin-left: 0.46rem;
+}
+.circular{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #efd28e;
+    border-radius: 50%;
+}
+.circular2{
+    width: 0.18rem;
+    height: 0.18rem;
+    background: #97d1d7;
+    border-radius: 50%;
+    margin-top: 0.18rem;
+}
+.circular3{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #97a0d7;
+    border-radius: 50%;
+    margin-top: 0.18rem;
+}
+.three{
+    position: absolute;
+    right: 0.37rem;
+    bottom: 0.64rem;
+}
+.look{
+    width:3.85rem;
+    height:0.5rem;
+    background:white;
+    margin: 0.38rem auto 0;
+    text-align: center;
+}
+/*热销产品结束*/
+/*案例展示开始*/
+.new1{
+    width: 2rem;
+    height: 1rem;
+    background:white;
+    margin-left: 3.01rem;
+    margin-top: 0.74rem;
+    margin-bottom: 0.65rem;
+}
+.brand-box{
+    width: 7.02rem;
+    height: 8.4rem;
+    background:white;
+    margin: 0 auto;
+}
+.brand-box1{
+    width: 7.01rem;
+    height: 4.38rem;
+    background:white;
+}
+.brand-box1 img{
+    width: 7.01rem;
+    height: 4.38rem;
+}
+.brand-box2{
+    width: 6.6rem;
+    height: 3.16rem;
+    background:white;
+    margin: 0.41rem auto 0;
+    text-align: center;
+}
+.brand-box2 b{
+    font-size: 0.28rem;
+}
+.paragraph li{
+    font-size: 0.24rem;
+    font-family: 微软雅黑;
+    margin-bottom: 0.14rem;
+}
+.paragraph1{
+    margin-top: 0.33rem;
+}
+.understand{
+    width: 1.4rem;
+    height: 0.6rem;
+    background:white;
+    margin: 0 auto;
+    border: 0.02rem solid orange;
+    border-radius: 0.3rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+/*案例展示结束*/
+/*品牌故事开始*/
+.new2{
+    width: 1.8rem;
+    height: 1rem;
+    background:white;
+    margin-left: 3.01rem;
+    margin-top: 0.71rem;
+    margin-bottom: 0.57rem;
+}
+.vicor-box{
+    width: 7.5rem;
+    height: 3.34rem;
+    background:#9a9b9d;
+    position: relative;
+    margin-bottom:0.98rem ;
+}
+.vicor-box img{
+    width: 7.5rem;
+    height: 3.34rem;
+}
+.mask{
+    width: 7.5rem;
+    height: 3.34rem;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mask ul{
+    text-align: center;
+    color: white;
+    margin-top: 0.83rem;
+}
+.mask1{
+    font-size: 0.3rem;
+}
+.mask2{
+    font-size: 0.28rem;
+}
+.mask3{
+    font-size: 0.18rem;
+}
+/*品牌故事结束*/
+/*tab开始*/
+.tab-box{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: #b0b0b0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.tab li{
+    width: 1.875rem;
+    height: 0.98rem;
+    background: white;
+    float: left;
+    text-align: center;
+    font-size: 0.4rem;
+    color: black;
+    line-height: 0.5rem;
+}
+.tab div{
+    font-size: 0.3rem;
+}
+
+/*tab结束*/
